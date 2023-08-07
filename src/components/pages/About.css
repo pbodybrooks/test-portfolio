@@ -1,0 +1,51 @@
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.708), rgba(0, 0, 0, 0.255)), url("../assets/images/hero-surf.jpg");
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.708), rgba(0, 0, 0, 0.255)), var(--img); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+.hero-content {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+h1 {
+    font-size: 5rem;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #fff;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.aboutCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 10vh;
+    border-radius: 5px;
+    box-shadow: 0 3px 16px #999, 0 3px 16px #b8b8b8;
+    background-color: #212121;
+}
+
+.aboutMe {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
